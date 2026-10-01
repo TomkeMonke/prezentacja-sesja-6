@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tomasz Święcki - prezentacja</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap">
+<style>
+*{box-sizing:border-box} html,body{margin:0;height:100%;background:#0b0e13;overflow:hidden;font-family:Rubik,Arial,sans-serif}
+h1,h2,h3,p{margin:0} img{display:block}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:center}
+#stage>section{position:absolute;inset:0;width:1920px;height:1080px}
+#stage>section:not(.on){visibility:hidden}
+#bar{position:fixed;left:0;right:0;bottom:0;display:flex;gap:12px;align-items:center;justify-content:center;padding:10px;color:#a9b1bd;font-size:14px;background:#0b0e13cc}
+#bar button{background:#1f2530;color:#f4f1ea;border:0;border-radius:6px;padding:6px 14px;font:inherit;cursor:pointer}
+#notes{position:fixed;left:0;right:0;bottom:48px;max-height:30%;overflow:auto;padding:16px 24px;background:#12161dee;color:#f4f1ea;font-size:18px;line-height:1.5;display:none}
+</style></head><body>
+<div id="stage"><section id="cover" data-transition="fade" style="background:#12161D;color:#F4F1EA;font-family:'Rubik', Arial, sans-serif;padding:128px;display:grid;grid-template-columns:1fr 560px;gap:96px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:40px">
+<p style="font-size:26px;font-weight:500;color:#F5A524;text-transform:uppercase;letter-spacing:3px">Informatyka + Matematyka · Uniwersytet Warszawski</p>
+<h1 style="font-family:'Oswald', Arial, sans-serif;font-size:168px;font-weight:700;line-height:1;text-transform:uppercase">Tomasz<br>Święcki</h1>
+<p style="font-size:40px;line-height:1.35;color:#C9CED6">Buduję rzeczy, które działają:<br>gry, roboty, aplikacje i AI</p>
+</div>
+<div style="display:flex;align-items:center;justify-content:center;height:720px;border:3px dashed #3A4352;border-radius:24px;background:#1A1F28">
+<p style="font-size:28px;color:#8A93A1;text-align:center">[Twoje zdjęcie]</p>
+</div>
+
+</section>
+<section id="kim" data-transition="fade" style="background:#F4F1EA;color:#12161D;font-family:'Rubik', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between;gap:48px">
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Kim jestem</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:20px;background:#FBFAF6;padding:40px;border:1px solid #DDD6C8;border-radius:20px">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:#A65A08;width:56px;height:56px;flex:none"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+<h3 style="font-size:40px;font-weight:600">Student</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5260">Informatyka i matematyka na UW. Stypendium Rektora 2025/26</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px;background:#FBFAF6;padding:40px;border:1px solid #DDD6C8;border-radius:20px">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:#A65A08;width:56px;height:56px;flex:none"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+<h3 style="font-size:40px;font-weight:600">Trener</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5260">Uczę C++ i Pythona w Szkole Programowania. Mentoruję 15+ licealistów w XXVII LO</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px;background:#FBFAF6;padding:40px;border:1px solid #DDD6C8;border-radius:20px">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:#A65A08;width:56px;height:56px;flex:none"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+<h3 style="font-size:40px;font-weight:600">Builder</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5260">Gry, roboty, aplikacje mobilne, a teraz AI. Lubię doprowadzać rzeczy do końca</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px;background:#FBFAF6;padding:40px;border:1px solid #DDD6C8;border-radius:20px">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:#A65A08;width:56px;height:56px;flex:none"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+<h3 style="font-size:40px;font-weight:600">Sportowiec</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5260">Półprofesjonalna koszykówka od 2021, medale w ligach. Wsady, siatkówka, narty</p>
+</div>
+</div>
+<p style="font-size:36px;font-weight:500;line-height:1.3">Wspólny mianownik: <span style="color:#A65A08">lubię rywalizować i lubię budować</span></p>
+
+</section>
+<section id="roblox" data-transition="fade" style="background:#F4F1EA;color:#12161D;font-family:'Rubik', Arial, sans-serif;padding:128px;display:grid;grid-template-columns:1fr 640px;gap:96px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:500;color:#A65A08;text-transform:uppercase;letter-spacing:3px">Początki</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">6 lat w Roblox Studio</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-left:4px solid #F5A524;padding:0 0 0 28px">
+<h3 style="font-size:36px;font-weight:600">The Squirrel Killer</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5260">Horror w stylu Granny, z własnymi zwrotami akcji</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-left:4px solid #F5A524;padding:0 0 0 28px">
+<h3 style="font-size:36px;font-weight:600">Obby, symulatory i symulacje</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5260">Programowanie w Lua i projektowanie rozgrywki</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-left:4px solid #F5A524;padding:0 0 0 28px">
+<h3 style="font-size:36px;font-weight:600">Duch rywalizacji</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5260">Szachy od 2021, Top 100 w Polsce w Clash Royale (2019)</p>
+</div>
+</div>
+<p style="font-size:32px;font-weight:500">Tu nauczyłem się <span style="color:#A65A08">kończyć projekty</span></p>
+</div>
+<div style="display:flex;align-items:center;justify-content:center;height:640px;border:3px dashed #C9C2B4;border-radius:24px;background:#EAE5DA">
+<p style="font-size:28px;color:#5E6573;text-align:center">[zrzut ekranu:<br>The Squirrel Killer]</p>
+</div>
+
+</section>
+<section id="olimpiady" data-transition="fade" style="background:#12161D;color:#F4F1EA;font-family:'Rubik', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between;gap:48px">
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Olimpiady i konkursy</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px;border-top:4px solid #F5A524;padding:32px 0 0 0">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:120px;font-weight:700;line-height:1;color:#F5A524">Top 100</p>
+<h3 style="font-size:36px;font-weight:600;line-height:1.25">Finalista Olimpiady Informatycznej</h3>
+<p style="font-size:28px;color:#A9B1BD">XXXII OI, 2025</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;border-top:4px solid #F5A524;padding:32px 0 0 0">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:120px;font-weight:700;line-height:1;color:#F5A524">Top 30</p>
+<h3 style="font-size:36px;font-weight:600;line-height:1.25">Finalista konkursu STEM PW</h3>
+<p style="font-size:28px;color:#A9B1BD">Politechnika Warszawska, 2025</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;border-top:4px solid #5B9BFF;padding:32px 0 0 0">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:120px;font-weight:700;line-height:1;color:#5B9BFF">3 pkt</p>
+<h3 style="font-size:36px;font-weight:600;line-height:1.25">Tyle zabrakło mi do finału Olimpiady Fizycznej</h3>
+<p style="font-size:28px;color:#A9B1BD">2024</p>
+</div>
+</div>
+<p style="font-size:32px;color:#C9CED6">Dziś to doświadczenie przekazuję dalej jako trener</p>
+
+</section>
+<section id="tadroid" data-transition="fade" style="background:#F4F1EA;color:#12161D;font-family:'Rubik', Arial, sans-serif;padding:128px;display:grid;grid-template-columns:1fr 640px;gap:96px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:500;color:#A65A08;text-transform:uppercase;letter-spacing:3px">FIRST Robotics · drużyna #10598</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">TADroid: CTO drużyny robotycznej</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:56px;font-weight:700;line-height:1.1;color:#A65A08">~10</p>
+<p style="font-size:26px;line-height:1.35;color:#4A5260">osób w moim zespole technicznym</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:56px;font-weight:700;line-height:1.1;color:#A65A08">1. miejsce</p>
+<p style="font-size:26px;line-height:1.35;color:#4A5260">Bosphorus Regional, Stambuł 2025</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:56px;font-weight:700;line-height:1.1;color:#A65A08">Houston</p>
+<p style="font-size:26px;line-height:1.35;color:#4A5260">Mistrzostwa Świata FRC 2025</p>
+</div>
+</div>
+<p style="font-size:30px;line-height:1.4;color:#4A5260">Prowadziłem software i strategię techniczną. Naszą drużynę prezentowałem m.in. licealistom z Lyonu</p>
+</div>
+<div style="display:flex;align-items:center;justify-content:center;height:720px;border:3px dashed #C9C2B4;border-radius:24px;background:#EAE5DA">
+<p style="font-size:28px;color:#5E6573;text-align:center">[zdjęcie: robot,<br>drużyna lub Houston]</p>
+</div>
+
+</section>
+<section id="drillr" data-transition="fade" style="display:grid; gap:56px; align-items:center; grid-template-columns:1fr 860px; padding:128px; background:#12161d">
+  <div style="display:flex; flex-direction:column; gap:40px">
+    <div style="display:flex; flex-direction:column; gap:16px">
+      <p style="font-family:Rubik, Arial, sans-serif; font-size:26px; font-weight:500; letter-spacing:3px; text-transform:uppercase; color:#5b9bff">Współzałożyciel i lead developer</p>
+      <h2 style="font-family:Oswald, Arial, sans-serif; font-size:72px; font-weight:600; line-height:1.1; text-transform:uppercase; color:#f4f1ea">drillr</h2>
+      <p style="font-family:Rubik, Arial, sans-serif; font-size:30px; line-height:1.4; color:#c9ced6">Plan treningu piłkarskiego poza boiskiem, dopasowany do pozycji zawodnika</p>
+    </div>
+    <div style="display:grid; gap:32px; grid-template-columns:1fr 1fr">
+      <div style="display:flex; flex-direction:column; gap:6px">
+        <p style="font-family:Oswald, Arial, sans-serif; font-size:56px; font-weight:700; line-height:1.1; color:#f5a524">3600+</p>
+        <p style="font-family:Rubik, Arial, sans-serif; font-size:26px; line-height:1.35; color:#a9b1bd">aktywnych użytkowników</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:6px">
+        <p style="font-family:Oswald, Arial, sans-serif; font-size:56px; font-weight:700; line-height:1.1; color:#f5a524">MRR</p>
+        <p style="font-family:Rubik, Arial, sans-serif; font-size:26px; line-height:1.35; color:#a9b1bd">dochodowe subskrypcje</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:6px">
+        <p style="font-family:Oswald, Arial, sans-serif; font-size:56px; font-weight:700; line-height:1.1; color:#f5a524">iOS + Android</p>
+        <p style="font-family:Rubik, Arial, sans-serif; font-size:26px; line-height:1.35; color:#a9b1bd">jedna baza kodu, React Native</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:6px">
+        <p style="font-family:Oswald, Arial, sans-serif; font-size:56px; font-weight:700; line-height:1.1; color:#f5a524">AI</p>
+        <p style="font-family:Rubik, Arial, sans-serif; font-size:26px; line-height:1.35; color:#a9b1bd">kamera ocenia technikę ćwiczeń</p>
+      </div>
+    </div>
+  </div>
+  <div style="display:flex; flex-direction:row; gap:20px; align-items:center">
+    <img src="img/drillr-plan.png" alt="drillr: dzisiejszy plan treningu z notatką trenera" style="width:200px; height:400px; object-fit:cover; border:2px solid #2e3542; border-radius:24px">
+    <img src="img/drillr-position.png" alt="drillr: wybór pozycji na boisku" style="width:200px; height:400px; object-fit:cover; border:2px solid #2e3542; border-radius:24px">
+    <img src="img/drillr-exercise.png" alt="drillr: ćwiczenie Bulgarian Split Squat z instrukcją krok po kroku" style="width:200px; height:400px; object-fit:cover; border:2px solid #2e3542; border-radius:24px">
+    <img src="img/drillr-stretch.png" alt="drillr: rozciąganie dolnej części pleców z instrukcją" style="width:200px; height:400px; object-fit:cover; border:2px solid #2e3542; border-radius:24px">
+  </div>
+  
+</section>
+<section id="teraz" data-transition="fade" style="background:#F4F1EA;color:#12161D;font-family:'Rubik', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:500;color:#A65A08;text-transform:uppercase;letter-spacing:3px">Teraz · ML, AI i robotyka autonomiczna</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Uczę się, budując</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:40px">
+<div style="display:flex;flex-direction:column;gap:20px;background:#FBFAF6;padding:32px;border:1px solid #DDD6C8;border-radius:20px">
+<div style="display:flex;align-items:center;justify-content:center;height:220px;border:3px dashed #C9C2B4;border-radius:14px;background:#EAE5DA">
+<p style="font-size:26px;color:#5E6573;text-align:center">[zdjęcie: robot z hackathonu]</p>
+</div>
+<h3 style="font-size:36px;font-weight:600">Robot zbierający szyszki</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5260">Hackathon w zespole. Kamera głębi znajduje szyszkę, robot podjeżdża, a ramię chwyta ją ruchem wyuczonym z 50 demonstracji (sieć ACT)</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px;background:#FBFAF6;padding:32px;border:1px solid #DDD6C8;border-radius:20px">
+<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:220px;border-radius:14px;background:#12161D">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:88px;font-weight:700;line-height:1.1;color:#5B9BFF">~140 000</p>
+<p style="font-size:26px;color:#C9CED6">neuronów w symulacji</p>
+</div>
+<h3 style="font-size:36px;font-weight:600">Mózg muszki kontra Olimpiada</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5260">Zasymulowałem cały mózg muszki owocowej, żeby sprawdzić, czy rozwiąże zadanie z OI. Wynik: poziom losowy</p>
+</div>
+</div>
+<p style="font-size:28px;color:#4A5260">Uczę się z YouTube, z Claude i z materiałów MIMUW</p>
+
+</section>
+<section id="prosba" data-transition="fade" style="background:#F5A524;color:#12161D;font-family:'Rubik', Arial, sans-serif;padding:128px;display:grid;grid-template-columns:1fr 480px;gap:96px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:44px">
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:96px;font-weight:700;line-height:1.05;text-transform:uppercase">Czego szukam</h2>
+<div style="display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:8px;border-left:6px solid #12161D;padding:0 0 0 28px">
+<h3 style="font-size:40px;font-weight:600">1. Ludzi, którzy budują AI i robotykę</h3>
+<p style="font-size:30px;line-height:1.4">Szczególnie z Inovo i ich portfolio. Chętnie pogadam po prezentacjach</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;border-left:6px solid #12161D;padding:0 0 0 28px">
+<h3 style="font-size:40px;font-weight:600">2. Feedbacku do drillr</h3>
+<p style="font-size:30px;line-height:1.4">Zeskanuj kod, sprawdź aplikację i napisz mi, co poprawić</p>
+</div>
+</div>
+<p style="font-size:28px;line-height:1.4">W czym pomogę: aplikacje mobilne od zera do sklepu, influencer marketing, prototypy ML i robotyki, algorytmika</p>
+<p style="font-size:28px;font-weight:600">tomekswiecki1@gmail.com · github.com/TomkeMonke</p>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:20px;background:#F4F1EA;padding:40px;border-radius:28px">
+<img src="img/qr-getdrillr.png" alt="Kod QR do getdrillr.app" style="width:400px;height:400px;object-fit:contain">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:44px;font-weight:600">getdrillr.app</p>
+</div>
+
+</section>
+</div>
+<div id="notes"></div>
+<div id="bar"><button id="prev">&larr;</button><span id="count"></span><button id="next">&rarr;</button><button id="nb">Notatki (N)</button><span>Pełny ekran: F</span></div>
+<script>
+const NOTES=["Cześć, jestem Tomek. Studiuję informatykę i matematykę na UW. W skrócie: lubię budować rzeczy, które naprawdę działają - zaczynałem od gier, potem były roboty, aplikacja, a teraz uczę się AI. W 5 minut pokażę Wam, co już zrobiłem i czego szukam.", "Cztery rzeczy o mnie. Studiuję dwa kierunki naraz na UW i dostałem Stypendium Rektora. Uczę programowania - C++ i Pythona - i mentoruję licealistów w Czackim. Buduję: gry, roboty, aplikację. I jestem sportowcem - gram półprofesjonalnie w kosza od 2021. Wspólny mianownik to rywalizacja i budowanie, i to zobaczycie na kolejnych slajdach.", "Wszystko zaczęło się od Robloxa - ponad 6 lat w Roblox Studio. Najbardziej dumny jestem z The Squirrel Killer, horroru w stylu Granny, ale z własnymi twistami. Robiłem też obby, symulatory i symulacje. Do tego szachy i Clash Royale, gdzie byłem w Top 100 w Polsce. Najważniejsza lekcja z tamtego czasu: jak doprowadzić projekt do końca.", "Olimpiady: w 2025 zostałem finalistą Olimpiady Informatycznej, czyli top 100 w Polsce, i finalistą konkursu STEM Politechniki, top 30. W fizyce w 2024 zabrakło mi trzech punktów do finału - to mnie nauczyło więcej niż niejeden sukces. Dziś uczę tego, czego sam się tam nauczyłem.", "Potem robotyka. W drużynie TADroid w FIRST Robotics Competition byłem CTO - prowadziłem zespół techniczny około 10 osób, odpowiadałem za software i strategię. W 2025 wygraliśmy Bosphorus Regional w Stambule i pojechaliśmy na Mistrzostwa Świata do Houston. Tam nauczyłem się prowadzić ludzi i pracować pod presją terminów.", "Największy projekt, który zbudowałem, to drillr. Młodzi piłkarze nie wiedzą, jak trenować poza boiskiem - drillr daje im plan dopasowany do pozycji, na której grają. Tu widać plan dnia, wybór pozycji, przykładowe ćwiczenie i rozciąganie - każde z animacją i instrukcją krok po kroku. Zbudowałem go od zera jako współzałożyciel i lead developer: jedna aplikacja na iOS i Androida w React Native, algorytmy układające trening i AI, które przez kamerę ocenia technikę. Dziś ma ponad 3600 aktywnych użytkowników i zarabia na subskrypcjach. Przez ostatnie pół roku to był mój główny projekt; teraz rozwija go głównie mój wspólnik.", "Co robię teraz? Uczę się machine learningu i robotyki autonomicznej - z YouTube, z Claude i z materiałów MIMUW - ale najwięcej uczę się, budując. Na hackathonie robimy w zespole robota, który kamerą głębi znajduje szyszkę, podjeżdża i chwyta ją ramieniem; ruchu chwytania ramię nauczyło się z 50 demonstracji. A dla zabawy zasymulowałem cały mózg muszki owocowej, ok. 140 tysięcy neuronów, żeby sprawdzić, czy rozwiąże zadanie z Olimpiady Informatycznej. Nie rozwiązał - wyszedł poziom losowy - ale nauczyłem się przy tym bardzo dużo. Kod jest publicznie na moim GitHubie.", "Na koniec: czego szukam. Po pierwsze - ludzi, którzy budują AI i robotykę, szczególnie z Inovo i ich portfolio. Chętnie pogadam po prezentacjach. Po drugie, mniejsza prośba: zeskanujcie kod, zobaczcie drillr i dajcie mi znać, co byście poprawili. A w czym ja mogę pomóc: zbuduję aplikację od zera aż do sklepu, znam influencer marketing z promowania drillr, robię prototypy ML i robotyki. Dziękuję!"];
+const S=[...document.querySelectorAll('#stage>section')];let i=Math.max(0,Math.min(S.length-1,(parseInt(location.hash.slice(1))||1)-1));
+const stage=document.getElementById('stage'),nt=document.getElementById('notes');
+function fit(){const s=Math.min(innerWidth/1920,innerHeight/1080);stage.style.transform=`translate(-50%,-50%) scale(${s})`}
+function show(){S.forEach((s,k)=>s.classList.toggle('on',k===i));document.getElementById('count').textContent=(i+1)+' / '+S.length;nt.textContent=NOTES[i];history.replaceState(null,'','#'+(i+1))}
+function go(d){i=Math.max(0,Math.min(S.length-1,i+d));show()}
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key))go(1);else if(['ArrowLeft','PageUp'].includes(e.key))go(-1);else if(e.key==='n'||e.key==='N')nt.style.display=nt.style.display==='block'?'none':'block';else if(e.key==='f'||e.key==='F')(document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen())});
+document.getElementById('prev').onclick=()=>go(-1);document.getElementById('next').onclick=()=>go(1);
+document.getElementById('nb').onclick=()=>nt.style.display=nt.style.display==='block'?'none':'block';
+stage.onclick=()=>go(1);addEventListener('resize',fit);fit();show();
+</script></body></html>
