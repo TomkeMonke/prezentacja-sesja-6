@@ -30,4 +30,4 @@ Co robię teraz? Uczę się machine learningu i robotyki autonomicznej - z YouTu
 
 ## 8. prosba
 
-Na koniec: czego szukam. Po pierwsze - ludzi, którzy budują AI i robotykę, szczególnie z Inovo i ich portfolio. Chętnie pogadam po prezentacjach. Po drugie, mniejsza prośba: zeskanujcie kod, zobaczcie drillr i dajcie mi znać, co byście poprawili. A w czym ja mogę pomóc: zbuduję aplikację od zera aż do sklepu, znam influencer marketing z promowania drillr, robię prototypy ML i robotyki. Dziękuję!
+Na koniec: czego szukam. Po pierwsze - chcę poznać ludzi z Inovo, a także innych founderów i inwestorów, szczególnie z obszaru AI i robotyki. Chętnie pogadam po prezentacjach. Po drugie, mniejsza prośba: zeskanujcie kod, zobaczcie drillr i dajcie mi znać, co byście poprawili. A w czym ja mogę pomóc: zbuduję aplikację od zera aż do sklepu, znam influencer marketing z promowania drillr, robię prototypy ML i robotyki. Dziękuję!
