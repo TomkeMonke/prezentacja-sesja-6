@@ -6,7 +6,6 @@ BLOBS = {
     "914f75d159a66e994b866b9005892664": "img/drillr-plan.png",
     "4a8ff09435aa02f2fcb1762d2e8a6fc1": "img/drillr-position.png",
     "f2b45868fc673ebb43244092a0ca1938": "img/drillr-exercise.png",
-    "aa1b4830d275d4b1701bb0c5be2468df": "img/drillr-stretch.png",
     "0e9cfa53e25765c0798b3d7ea2693661": "img/qr-getdrillr.png",
 }
 ICONS = {

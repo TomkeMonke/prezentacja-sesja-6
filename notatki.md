@@ -22,7 +22,7 @@ Potem robotyka. W drużynie TADroid w FIRST Robotics Competition byłem CTO - pr
 
 ## 6. drillr
 
-Największy projekt, który zbudowałem, to drillr. Młodzi piłkarze nie wiedzą, jak trenować poza boiskiem - drillr daje im plan dopasowany do pozycji, na której grają. Tu widać plan dnia, wybór pozycji, przykładowe ćwiczenie i rozciąganie - każde z animacją i instrukcją krok po kroku. Zbudowałem go od zera jako współzałożyciel i lead developer: jedna aplikacja na iOS i Androida w React Native, algorytmy układające trening i AI, które przez kamerę ocenia technikę. Dziś ma ponad 3600 aktywnych użytkowników i zarabia na subskrypcjach. Przez ostatnie pół roku to był mój główny projekt; teraz rozwija go głównie mój wspólnik.
+Największy projekt, który zbudowałem, to drillr. Młodzi piłkarze nie wiedzą, jak trenować poza boiskiem - drillr daje im plan dopasowany do pozycji, na której grają. Tu widać plan dnia, wybór pozycji, przykładowe ćwiczenie z animacją i instrukcją krok po kroku. Zbudowałem go od zera jako współzałożyciel i lead developer: jedna aplikacja na iOS i Androida w React Native, algorytmy układające trening i AI, które przez kamerę ocenia technikę. Dziś ma ponad 3600 aktywnych użytkowników i zarabia na subskrypcjach. Przez ostatnie pół roku to był mój główny projekt; teraz rozwija go głównie mój wspólnik.
 
 ## 7. teraz
 
