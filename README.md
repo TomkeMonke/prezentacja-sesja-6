@@ -1,4 +1,6 @@
-# Tomasz Święcki - prezentacja (Sesja 6)
+# Od gier w Roblox do robotów - kim jestem i co chcę budować
+
+Tomasz Święcki · Sesja 6
 
 5-minutowa prezentacja o mnie: od gier w Roblox, przez olimpiady i robotykę FRC, po aplikację drillr i to, czego uczę się teraz (ML, AI, robotyka autonomiczna).
 
