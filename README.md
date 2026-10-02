@@ -16,7 +16,7 @@ Sterowanie: strzałki lub klik - następny slajd, `N` - notatki, `F` - pełny ek
 4. TADroid FRC #10598 - CTO, wygrana Bosphorus Regional, Mistrzostwa Świata w Houston
 5. drillr - aplikacja treningowa, 3600+ aktywnych użytkowników, iOS + Android
 6. Teraz - robot zbierający szyszki (hackathon) i symulacja mózgu muszki owocowej
-7. Czego szukam - ludzi budujących AI i robotykę, feedback do drillr
+7. Czego szukam - ludzi budujących AI i robotykę (kod QR do LinkedIna)
 
 ## Linki
 
@@ -24,6 +24,7 @@ Sterowanie: strzałki lub klik - następny slajd, `N` - notatki, `F` - pełny ek
 - GitHub: https://github.com/TomkeMonke
 - Mózg muszki kontra Olimpiada: https://github.com/TomkeMonke/fly-brain-olympiad
 - Robot z hackathonu: https://github.com/TomkeMonke/hackaton
+- LinkedIn: https://www.linkedin.com/in/tomasz-%C5%9Bwi%C4%99cki-00aa0729a
 - Kontakt: tomekswiecki1@gmail.com
 
 ## Pliki

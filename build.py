@@ -6,7 +6,7 @@ BLOBS = {
     "914f75d159a66e994b866b9005892664": "img/drillr-plan.png",
     "4a8ff09435aa02f2fcb1762d2e8a6fc1": "img/drillr-position.png",
     "f2b45868fc673ebb43244092a0ca1938": "img/drillr-exercise.png",
-    "0e9cfa53e25765c0798b3d7ea2693661": "img/qr-getdrillr.png",
+    "7c1e0b2a9d4f4e6b8a3c5d1f2e9b0a47": "img/qr-linkedin.png",
     "d4f14e91f5f42fd0c2bcc8ca5db09ee7": "img/ja.jpg",
     "abf0a430c55f6d9b15dae38c96bca0c8": "img/tadroid-lyon.jpg",
     "a843a74544b34e00cac06913c378607f": "img/squirrel-killer.png",
