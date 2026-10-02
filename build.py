@@ -10,7 +10,7 @@ BLOBS = {
     "d4f14e91f5f42fd0c2bcc8ca5db09ee7": "img/ja.jpg",
     "abf0a430c55f6d9b15dae38c96bca0c8": "img/tadroid-lyon.jpg",
     "a843a74544b34e00cac06913c378607f": "img/squirrel-killer.png",
-    "21b606233632668121b933979b821026": "img/hackathon-robot.jpg",
+    "8285265882f153b2e265f691b2c38173": "img/hackathon-team.jpg",
 }
 ICONS = {
     "GraduationCap": '<path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>',
