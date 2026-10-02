@@ -10,7 +10,7 @@ Cztery rzeczy o mnie. Studiuję dwa kierunki naraz na UW i dostałem Stypendium 
 
 ## 3. roblox
 
-Wszystko zaczęło się od Robloxa - ponad 6 lat w Roblox Studio. Najbardziej dumny jestem z The Squirrel Killer, horroru w stylu Granny, ale z własnymi twistami. Robiłem też obby, symulatory i symulacje. Do tego szachy i Clash Royale, gdzie byłem w Top 100 w Polsce. Najważniejsza lekcja z tamtego czasu: jak doprowadzić projekt do końca.
+Wszystko zaczęło się od Robloxa - ponad 6 lat w Roblox Studio. Najbardziej dumny jestem z The Squirrel Killer, horroru w stylu Granny, ale z własnymi twistami - zagrało w niego już prawie 2 tysiące razy. Robiłem też obby, symulatory i symulacje. Do tego szachy i Clash Royale, gdzie byłem w Top 100 w Polsce. Najważniejsza lekcja z tamtego czasu: jak doprowadzić projekt do końca.
 
 ## 4. olimpiady
 
