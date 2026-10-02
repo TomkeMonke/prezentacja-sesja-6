@@ -7,6 +7,8 @@ BLOBS = {
     "4a8ff09435aa02f2fcb1762d2e8a6fc1": "img/drillr-position.png",
     "f2b45868fc673ebb43244092a0ca1938": "img/drillr-exercise.png",
     "0e9cfa53e25765c0798b3d7ea2693661": "img/qr-getdrillr.png",
+    "d4f14e91f5f42fd0c2bcc8ca5db09ee7": "img/ja.jpg",
+    "abf0a430c55f6d9b15dae38c96bca0c8": "img/tadroid-lyon.jpg",
 }
 ICONS = {
     "GraduationCap": '<path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>',
